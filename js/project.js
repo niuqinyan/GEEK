@@ -1,5 +1,5 @@
 // JavaScript Document
-/*****用ajax获取数据*****/
+/*****ajax鑾峰彇鏁版嵁*****/
 var JSON;
 var PAGE;
 var ROWS;
@@ -18,10 +18,10 @@ $(function() {
 			  }
 			  $(".projectShow_a span:eq(0)").css("border","1px solid red");
 			  $(".projectShow_a span").click(function() {
-					var cureentPage = $(this).text();
-					goPage(cureentPage);
-					$(this).css("border","1px solid red");
-					$(".projectShow_a span").not($(this)).css("border","1px solid #999");
+				var cureentPage = $(this).text();
+				goPage(cureentPage);
+				$(this).css("border","1px solid red");
+				$(".projectShow_a span").not($(this)).css("border","1px solid #999");
 			  });
 			  goPage(1);
 			  
@@ -40,32 +40,33 @@ $(function() {
 		for(start;start<end&&start<ROWS.length;start++){
 			$("#projectShow ul").append("<li><img src=\"images\/project/"+ROWS[start].imgUrl+"\"/><a href=\""+ROWS[start].href+"\">"+ROWS[start].projectName+"</a></li>");
 		}
-		/*****样式设置*****/	
+		/*****鏍峰紡璁剧疆*****/	
 	
 		$("#projectShow li:odd a").css({
-						"filter":"alpha(opacity=50)",
-						"opacity":0.5
-						});
+			"filter":"alpha(opacity=50)",
+			"opacity":0.5
+		});
 		$("#projectShow li:even a").css({
-						"filter":"alpha(opacity=90)",
-						"opacity":0.9
-						});
+			"filter":"alpha(opacity=90)",
+			"opacity":0.9
+		});
 		$("#projectShow img").hide();
 		$("#projectShow li a").hover(function() {
 			$(this).css({
-				    "filter":"alpha(opacity=0)",
-				    "opacity":0.0
-				    });
+				"filter":"alpha(opacity=0)",
+				"opacity":0.0
+			});
 			$(this).prev().fadeIn("slow");
-			},function() {
+			},
+			function() {
 				$("#projectShow li:odd a").css({
-						"filter":"alpha(opacity=50)",
-						"opacity":0.5
-						});
+					"filter":"alpha(opacity=50)",
+					"opacity":0.5
+				});
 		      		$("#projectShow li:even a").css({
-						"filter":"alpha(opacity=90)",
-						"opacity":0.9
-						});
+					"filter":"alpha(opacity=90)",
+					"opacity":0.9
+				});
 				$("#projectShow img").fadeOut("slow");
 		       });
        }
