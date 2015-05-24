@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#Content{
+	padding:0px;
+	margin:0 auto;
+	width:1002px;
+	height:1085px;
+	}
+
+.content{
+	margin:auto;
+	background:url(../images/project.gif) center no-repeat;
+	margin:auto;
+	width:1002px;
+	height:916px;
+	
+	}
+#projectShow{
+	padding-top:49px;
+	padding-left:6px;
+	margin:auto;
+	width:878px;
+	height:680px;
+	}
+
+#projectShow ul li{
+	border:#FFF thin solid;
+	position:relative;
+	width:288px;
+	height:215px;
+	float:left;
+	}
+#projectShow ul li img{
+	width:288px;
+	height:215px;
+	float:left;
+	}
+#projectShow ul li a{
+	z-index:1000;
+	display:block;
+	position:absolute;
+	background:#9ad9ea;
+	width:288px;
+	height:215px;
+	left:0px;
+	top:0px;
+	font-size:22px;
+	color:#F30;
+	text-align:center;
+	line-height:215px;
+}
+
+.projectShow_a{
+	width:1002px;
+	height:30px;
+	text-align:center;
+	}
+.projectShow_a span{
+	display:inline-block;
+	width:30px;
+	height:20px;
+	border:1px solid  #D0D0D0;
+	margin-left:15px;
+	color:#555;
+	cursor:pointer;
+	}
+.middle{
+	margin:auto;
+	padding-top:46px;
+	width:1002px;
+	height:735px;
+	position:relative;
+	}
+#div{
+	border:#00C thin solid;
+	margin:auto;
+	width:640px;
+	height:88px;
+	margin-left:179px;
+	}
+.small_img{
+	margin:auto;
+	width:640px;
+	height:88px;
+	position:relative;
+	overflow:hidden;
+	}
+
+#scroll_img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	}
+#scroll_img li{
+	background:#FFF;
+	border:#FFF thin solid;
+	float:left;
+	width:121px;
+	height:86px;
+	margin-left:5px;
+	text-align:center;
+	vertical-align:middle;
+	}
+.small_img img{
+	width:114px;
+	height:86px;
+	}
+
+#project_intro{
+	border:#FFF groove;
+	background:#FFF;
+	margin-top:92px;
+	margin-left:180px;
+	width:284px;
+	height:360px;
+	}
+
+#big_img li{
+	width:284px;
+	height:360px;
+	position:absolute;
+	}
+#big_img li img{
+	width:284px;
+	height:260px;
+	}
+#big_img li p{
+	font-size:18px;
+	}
+#footer{
+	text-align:center;
+	margin:auto;
+	width:1002px;
+	height:66px;
+	margin-top:40px;
+	line-height:25px;
+        color:#666;
+	font-size:16px;
+}
+#footer a{
+	color:#666;
+	
+}
+#footer a:hover{
+	color:#F90;
+}

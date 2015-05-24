@@ -1,0 +1,197 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.more{
+	color:blue;
+	}
+.more:hover{
+	text-decoration:none;
+	color:#F90;
+	}
+#Content{
+	padding:0px;
+	margin:0 auto;
+	width:1002px;
+	height:1085px;
+	position:relative;
+	}
+#content{
+	background:url(../images/bg.gif) no-repeat;
+	margin:auto;
+	width:1002px;
+	height:916px;
+	}
+#geekIntro{
+	margin:auto;
+	width:1002px;
+	height:315px;
+	padding-top:30px;
+
+	}
+.geek_intro{
+	position:relative;
+	width:420px;
+	height:313px;
+	float:left;
+	margin-left:50px;
+	line-height:23px;
+	color:#666;
+	font-size:16px;
+	display:inline;
+	}
+.text{
+	margin:0 auto;
+	padding:0;
+	line-height:26px;
+}
+.geek_img_border{
+	position:relative;
+	border:#99cc33 groove;
+	width:420px;
+	height:313px;
+	float:right;
+	margin-right:60px;
+	display:inline;
+	}
+.slideBox{
+        width:420px;
+        height:313px;
+        }
+.slideBox img{
+        width:420px;
+        height:313px;
+}
+
+#geekShow{
+	margin:auto;
+	width:1002px;
+	height:404px;
+	margin-top:25px;
+	}
+#member_bookShow{
+	width:535px;
+	height:402px;
+	float:left;
+	margin-left:60px;
+	display:inline;
+	}
+#member_intro{
+	background:#ffffff;
+	border:#99cc33 thin solid;
+	width:535px;
+	height:282px;
+	}
+
+#member_intro ul li{
+	display:inline;
+	margin-top:14px;
+	}
+#member_intro ul li ul li{
+	float:left;
+	margin-left:13px;
+	width:161px;
+	height:120px;
+	position:relative;
+	display:inline;
+	}
+#member_intro ul li ul li a img{
+	display:block;
+	width:161px;
+	height:120px;
+	}
+.member_information{
+	background:url(../images/member_information_bg.jpg);
+	filter:alpha(opacity=40);opacity:0.4;
+	z-index:1000;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:161px;
+	height:30px;
+	display:block;
+	}
+.member_information span{
+	display:block;
+	width:161px;
+	height:30px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	color:#FFF;
+	text-align:center;
+	font-size:14px;
+	line-height:30px;
+	}
+.book_intro{
+	position:relative;
+	background:#ffffff;
+	border:#99cc33 thin solid;
+	width:535px;
+	height:94px;
+	margin-top:23px;
+	
+	}
+.book_intro ul{
+	padding-left:10px;
+	padding-top:10px;
+	}
+.book_intro ul li a{
+	line-height:23px;
+	color:#666;
+	font-size:14px;
+	}
+.book_intro ul li a:hover{
+	color:#F90;
+	}
+#projectList{
+	position:relative;
+	background:#ffffff;
+	border:#6F3 thin solid;
+	width:285px;
+	height:402px;
+	float:right;
+	margin-right:60px;
+	display:inline;
+	padding-top:0px;
+	}
+.h3{
+	margin:0 auto;
+	background:#B7EFB4;
+	width:275px;
+	height:33px;
+	color:#FFF;
+	font-size:22px;
+	line-height:33px;
+	padding-left:10px;
+	}
+#projectList ol{
+	padding-left:35px;
+	padding-top:10px;
+	}
+
+#projectList ol li a{
+	line-height:25px;
+	color:#666;
+	font-size:15px;
+	
+	}
+#projectList ol li a:hover{
+	color:#F90;
+	}
+.footer{
+	text-align:center;
+	margin:auto;
+	width:1002px;
+	height:70px;
+	padding-top:58px;
+	line-height:25px;
+        color:#666;
+	font-size:16px;
+	}
+.footer a{
+	color:#666;
+	}
+.footer a:hover{
+	color:#F90;
+	}

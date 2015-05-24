@@ -1,0 +1,88 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.more{
+	}
+.more:hover{
+	text-decoration:none;
+	color:#F90;
+	}
+#Content{
+	padding:0px;
+	margin:0 auto;
+	width:1002px;
+	height:1000px;
+	position:relative;
+	}
+#Advice{
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	width:1002px;
+	height:1000px;
+	background-color:#ebfffd;
+	}
+#advice{
+	width:800px;
+	height:600px;
+	border:2px #0CC solid;
+	margin:0 auto;
+	position:relative;
+	margin-top:70px;
+	}
+#left_img1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	}
+#right_img1{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	}
+#advice_content{
+	margin:10px;
+	width:780px;
+	height:360px;
+	background-color:#3FF;
+	position:absolute;
+	top:130px;
+	left:0px;
+	filter:alpha(opacity:60); opacity:0.6;
+	
+	}
+#txt_body{	
+	margin-left:60px;
+}
+#txt_body textarea{
+	width:656px;
+	height:100px;
+}
+#txt1{
+	width:650px;
+	height:100px;
+	background-color:#CCC;
+	}
+#btn{
+	width:200px;
+	height:100px;
+	position:absolute;
+	right:30px;
+	bottom:0px;}
+
+.footer{
+	text-align:center;
+	margin:auto;
+	width:1002px;
+	height:66px;
+	padding-top:66px;
+	line-height:25px;
+        color:#666;
+	font-size:16px;
+	}
+.footer a{
+	color:#666;
+	}
+.footer a:hover{
+	color:#F90;
+	}
