@@ -8,7 +8,7 @@ $(function() {
 	$.ajax({
 		  type:"post",
 		  url:"project.json",
-		  contentType:"application/jso",
+		  contentType:"application/json",
 		  success:function(response){
 			  var obj = response;
 			  PAGE=Math.ceil(obj.total/9);
